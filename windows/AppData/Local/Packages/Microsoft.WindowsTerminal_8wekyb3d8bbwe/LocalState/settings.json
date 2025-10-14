@@ -154,13 +154,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Thayer Bright",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "colorScheme": "Spring",
                 "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
                 "font": 
@@ -173,35 +166,6 @@
                 "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
                 "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "adjustIndistinguishableColors": "never",
-                "backgroundImage": null,
-                "backgroundImageOpacity": 0.55,
-                "colorScheme": "coolnight",
-                "cursorColor": "#198CFE",
-                "cursorShape": "filledBox",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "axes": 
-                    {
-                        "wght": 400
-                    },
-                    "cellHeight": "1.5",
-                    "face": "Monaspace Krypton",
-                    "size": 14,
-                    "weight": "medium"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "intenseTextStyle": "none",
-                "name": "PowerShell",
-                "opacity": 30,
-                "padding": "0",
-                "scrollbarState": "hidden",
-                "source": "Windows.Terminal.PowershellCore",
-                "useAcrylic": true
             },
             {
                 "adjustIndistinguishableColors": "never",
@@ -262,28 +226,6 @@
                 "startingDirectory": "C:/Software/msys64/home/%USERNAME%"
             },
             {
-                "guid": "{dbd9d3df-3971-57bf-a67c-929880006706}",
-                "hidden": false,
-                "name": "Ubuntu-24.04",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "colorScheme": "coolnight",
-                "font": 
-                {
-                    "cellHeight": "1.5",
-                    "face": "Monaspace Krypton",
-                    "size": 14,
-                    "weight": "medium"
-                },
-                "guid": "{9a144645-7371-4501-bd5a-4ce9f5a90d1a}",
-                "hidden": false,
-                "intenseTextStyle": "none",
-                "name": "Arch Linux",
-                "opacity": 30,
-                "source": "Microsoft.WSL"
-            },
-            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
@@ -303,7 +245,7 @@
                 {
                     "axes": {},
                     "cellHeight": "1.5",
-                    "face": "NB Architekt Pro R",
+                    "face": "Monaspace Krypton",
                     "features": 
                     {
                         "calt": 1,
@@ -312,7 +254,7 @@
                         "ss07": 1
                     },
                     "size": 12,
-                    "weight": 990
+                    "weight": "semi-bold"
                 },
                 "guid": "{f2002b2c-5010-4357-9c9d-165af36ba4a1}",
                 "hidden": false,
@@ -326,34 +268,10 @@
                 "useAcrylic": true
             },
             {
-                "font": 
-                {
-                    "builtinGlyphs": true,
-                    "face": "Monaspace Krypton"
-                },
-                "guid": "{5a086ae3-e6bf-5a1b-8914-7f098c218500}",
-                "hidden": false,
-                "name": "archlinux",
-                "source": "Microsoft.WSL",
-                "tabTitle": "Arch Linux"
-            },
-            {
                 "guid": "{4939c4a0-5fcd-5786-9a9a-bedf515756a4}",
                 "hidden": false,
                 "name": "RestoredArch",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{2b264fc5-a203-5d97-8d9d-4896bbd4a0c5}",
-                "hidden": false,
-                "name": "archlinux",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "guid": "{fcb6a6ee-42f8-56a5-94d4-5c782858081d}",
-                "hidden": false,
-                "name": "archlinux",
-                "source": "Microsoft.WSL"
             },
             {
                 "font": 

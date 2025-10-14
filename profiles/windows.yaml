@@ -43,10 +43,12 @@ dotfiles:
     rename: "AppData\\Roaming\\Sublime Text"
     template: false
 
+  - path: "shared\\shaders"
+    rename: "C:\\Software\\wts"
+    template: false
+
 
     # Optional: Content transformer. These will take the content of a dotfile, process it and return a new version of it.
-    transformers:
-    - !LineTerminator: CRLF
 
     # Optional: Merge operation/kind (like: Ask, Keep, Overwrite)
     # Default: Overwrite

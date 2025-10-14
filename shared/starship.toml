@@ -48,7 +48,7 @@ error_symbol = '[💀 ](fg:red)'
 show_always = true
 style_user = "bg:#006FF7"
 style_root = "bg:#006FF7"
-format = '[ 👤$user  ]($style)'
+format = '[ $user ]($style)'
 disabled = false
 
 [username.aliases]
@@ -208,4 +208,3 @@ time_format = "%R" # Hour:Minute Format
 style = "bg:#2E9599"
 format = '[ 🕙 $time ]($style)'
 #⌚🕰️⏳⏰⌛
-
