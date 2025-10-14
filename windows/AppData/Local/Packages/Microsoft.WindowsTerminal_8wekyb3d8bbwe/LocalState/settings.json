@@ -1,0 +1,801 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u0017"
+            },
+            "id": "User.sendInput.817164EE"
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{f2002b2c-5010-4357-9c9d-165af36ba4a1}",
+    "firstWindowPreference": "defaultProfile",
+    "focusFollowMouse": true,
+    "initialCols": 180,
+    "initialRows": 50,
+    "keybindings": 
+    [
+        {
+            "id": "User.sendInput.817164EE",
+            "keys": "ctrl+backspace"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+tab"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "enter"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+alt+enter"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "never",
+            "altGrAliasing": false,
+            "antialiasingMode": "cleartype",
+            "backgroundImage": null,
+            "backgroundImageOpacity": 0,
+            "backgroundImageStretchMode": "none",
+            "bellStyle": 
+            [
+                "audible",
+                "window"
+            ],
+            "colorScheme": "cyberpunk Custom",
+            "cursorColor": "#198CFE",
+            "cursorShape": "filledBox",
+            "experimental.pixelShaderPath": "C:\\Software\\wts\\ingamecrt2.hlsl",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "cellHeight": "1.4",
+                "face": "Monaspace Krypton Var",
+                "size": 13,
+                "weight": "medium"
+            },
+            "intenseTextStyle": "none",
+            "opacity": 30,
+            "padding": "0",
+            "scrollbarState": "hidden",
+            "showMarksOnScrollbar": true,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Campbell Powershell",
+                "cursorColor": "#198CFE",
+                "cursorShape": "filledBox",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "cellHeight": "1.6",
+                    "face": "Office Code Pro D",
+                    "size": 18,
+                    "weight": "medium"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "opacity": 0,
+                "padding": "0",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "Whimsy",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "Thayer Bright",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "colorScheme": "Spring",
+                "commandline": "C:/Program Files/Git/bin/bash.exe -i -l",
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{e051609d-7aea-4bdd-8ca8-1ef8344b213d}",
+                "hidden": false,
+                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.55,
+                "colorScheme": "coolnight",
+                "cursorColor": "#198CFE",
+                "cursorShape": "filledBox",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "axes": 
+                    {
+                        "wght": 400
+                    },
+                    "cellHeight": "1.5",
+                    "face": "Monaspace Krypton",
+                    "size": 14,
+                    "weight": "medium"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "intenseTextStyle": "none",
+                "name": "PowerShell",
+                "opacity": 30,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "cyberpunk Custom",
+                "commandline": "C:/Software/msys64/usr/bin/bash --login",
+                "cursorColor": "#2FFFFF",
+                "cursorShape": "filledBox",
+                "environment": 
+                {
+                    "CHERE_INVOKING": "1",
+                    "MSYS": "winsymlinks:nativestrict",
+                    "MSYSTEM": "UCRT64"
+                },
+                "font": 
+                {
+                    "cellHeight": "1.2",
+                    "face": "SFMono Nerd Font",
+                    "size": 12.5,
+                    "weight": "medium"
+                },
+                "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
+                "hidden": true,
+                "icon": "C:/Software/msys64/ucrt64.ico",
+                "intenseTextStyle": "none",
+                "name": "MSYS2 UCRT64",
+                "opacity": 5,
+                "padding": "0",
+                "scrollbarState": "always",
+                "startingDirectory": "C:/Software/msys64/home/%USERNAME%"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "cyberpunk Custom",
+                "commandline": "C:/Software/msys64/usr/bin/bash --login",
+                "cursorColor": "#2FFFFF",
+                "cursorShape": "filledBox",
+                "environment": 
+                {
+                    "CHERE_INVOKING": "1",
+                    "MSYS": "winsymlinks:nativestrict",
+                    "MSYSTEM": "MINGW64"
+                },
+                "font": 
+                {
+                    "cellHeight": "1.2",
+                    "face": "SFMono Nerd Font",
+                    "size": 12.5,
+                    "weight": "medium"
+                },
+                "guid": "{b01223ec-657d-425c-96e1-20b6f3e4681c}",
+                "hidden": false,
+                "icon": "C:/Software/msys64/mingw64.ico",
+                "intenseTextStyle": "none",
+                "name": "MSYS2 MINGW64",
+                "opacity": 5,
+                "padding": "0",
+                "scrollbarState": "always",
+                "startingDirectory": "C:/Software/msys64/home/%USERNAME%"
+            },
+            {
+                "guid": "{dbd9d3df-3971-57bf-a67c-929880006706}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "colorScheme": "coolnight",
+                "font": 
+                {
+                    "cellHeight": "1.5",
+                    "face": "Monaspace Krypton",
+                    "size": 14,
+                    "weight": "medium"
+                },
+                "guid": "{9a144645-7371-4501-bd5a-4ce9f5a90d1a}",
+                "hidden": false,
+                "intenseTextStyle": "none",
+                "name": "Arch Linux",
+                "opacity": 30,
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.55,
+                "colorScheme": "coolnight",
+                "commandline": "pwsh.exe",
+                "cursorColor": "#198CFE",
+                "cursorShape": "filledBox",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "axes": {},
+                    "cellHeight": "1.5",
+                    "face": "NB Architekt Pro R",
+                    "features": 
+                    {
+                        "calt": 1,
+                        "cv01": 4,
+                        "cv62": 1,
+                        "ss07": 1
+                    },
+                    "size": 12,
+                    "weight": 990
+                },
+                "guid": "{f2002b2c-5010-4357-9c9d-165af36ba4a1}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+                "intenseTextStyle": "none",
+                "name": "PowerShell",
+                "opacity": 30,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "tabTitle": "PowerShell",
+                "useAcrylic": true
+            },
+            {
+                "font": 
+                {
+                    "builtinGlyphs": true,
+                    "face": "Monaspace Krypton"
+                },
+                "guid": "{5a086ae3-e6bf-5a1b-8914-7f098c218500}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL",
+                "tabTitle": "Arch Linux"
+            },
+            {
+                "guid": "{4939c4a0-5fcd-5786-9a9a-bedf515756a4}",
+                "hidden": false,
+                "name": "RestoredArch",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2b264fc5-a203-5d97-8d9d-4896bbd4a0c5}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{fcb6a6ee-42f8-56a5-94d4-5c782858081d}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "font": 
+                {
+                    "face": "Monaspace Krypton NF",
+                    "size": 14
+                },
+                "guid": "{8bf78592-92ec-5ea4-9fc2-16e0c2fc01f4}",
+                "hidden": false,
+                "icon": "C:\\Users\\Headway\\AppData\\Local\\wsl\\archlinux\\shortcut.ico",
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#1C0C28",
+            "black": "#0A4C62",
+            "blue": "#90A5BD",
+            "brightBlack": "#201637",
+            "brightBlue": "#39173D",
+            "brightCyan": "#5E6071",
+            "brightGreen": "#0A6C7E",
+            "brightPurple": "#BC94B7",
+            "brightRed": "#C87272",
+            "brightWhite": "#0A6C7E",
+            "brightYellow": "#7A3188",
+            "cursorColor": "#FCFAD6",
+            "cyan": "#7E83CC",
+            "foreground": "#BABAB9",
+            "green": "#5CB1B3",
+            "name": "BlueBerryPie",
+            "purple": "#9D54A7",
+            "red": "#99246E",
+            "selectionBackground": "#606060",
+            "white": "#F0E8D6",
+            "yellow": "#EAB9A8"
+        },
+        {
+            "background": "#F9F9F9",
+            "black": "#373A41",
+            "blue": "#275FE4",
+            "brightBlack": "#676A77",
+            "brightBlue": "#0099E1",
+            "brightCyan": "#6D93BB",
+            "brightGreen": "#3CBC66",
+            "brightPurple": "#CE33C0",
+            "brightRed": "#FF6480",
+            "brightWhite": "#D3D3D3",
+            "brightYellow": "#C5A332",
+            "cursorColor": "#F32759",
+            "cyan": "#27618D",
+            "foreground": "#373A41",
+            "green": "#23974A",
+            "name": "BlulocoLight",
+            "purple": "#823FF1",
+            "red": "#D52753",
+            "selectionBackground": "#DAF0FF",
+            "white": "#BABBC2",
+            "yellow": "#DF631C"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#3C5712",
+            "blue": "#17B2FF",
+            "brightBlack": "#749B36",
+            "brightBlue": "#27B2F6",
+            "brightCyan": "#13A8C0",
+            "brightGreen": "#89AF50",
+            "brightPurple": "#F2A20A",
+            "brightRed": "#F49B36",
+            "brightWhite": "#741274",
+            "brightYellow": "#991070",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3C96A6",
+            "foreground": "#000000",
+            "green": "#6AAE08",
+            "name": "Frost",
+            "purple": "#991070",
+            "red": "#8D0C0C",
+            "selectionBackground": "#FFFFFF",
+            "white": "#6E386E",
+            "yellow": "#991070"
+        },
+        {
+            "background": "#282828",
+            "black": "#282828",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "Gruvbox Dark",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#A89984",
+            "yellow": "#D79921"
+        },
+        {
+            "background": "#070825",
+            "black": "#181A1F",
+            "blue": "#46BDFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#46BDFF",
+            "brightCyan": "#FF901F",
+            "brightGreen": "#FCEE54",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#F85353",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFFF",
+            "cursorColor": "#03EDF9",
+            "cyan": "#DF81FC",
+            "foreground": "#46BDFF",
+            "green": "#929292",
+            "name": "Retrowave",
+            "purple": "#FF92DF",
+            "red": "#FF16B0",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FCEE54"
+        },
+        {
+            "background": "#000000",
+            "black": "#181A1F",
+            "blue": "#46BDFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#46BDFF",
+            "brightCyan": "#FF901F",
+            "brightGreen": "#FCEE54",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#F85353",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFFF",
+            "cursorColor": "#03EDF9",
+            "cyan": "#DF81FC",
+            "foreground": "#46BDFF",
+            "green": "#929292",
+            "name": "Retrowave Custom",
+            "purple": "#FF92DF",
+            "red": "#FF16B0",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FCEE54"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#1DD3EE",
+            "brightBlack": "#000000",
+            "brightBlue": "#15A9FD",
+            "brightCyan": "#3E999F",
+            "brightGreen": "#1FC231",
+            "brightPurple": "#8959A8",
+            "brightRed": "#FF0021",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D5B807",
+            "cursorColor": "#4D4D4C",
+            "cyan": "#3E999F",
+            "foreground": "#4D4D4C",
+            "green": "#1F8C3B",
+            "name": "Spring",
+            "purple": "#8959A8",
+            "red": "#FF4D83",
+            "selectionBackground": "#D6D6D6",
+            "white": "#FFFFFF",
+            "yellow": "#1FC95B"
+        },
+        {
+            "background": "#1B1D1E",
+            "black": "#1B1D1E",
+            "blue": "#2757D6",
+            "brightBlack": "#505354",
+            "brightBlue": "#3F78FF",
+            "brightCyan": "#23CFD5",
+            "brightGreen": "#B6E354",
+            "brightPurple": "#9E6FFE",
+            "brightRed": "#FF5995",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#FEED6C",
+            "cursorColor": "#03EDF9",
+            "cyan": "#38C8B5",
+            "foreground": "#F8F8F8",
+            "green": "#4DF840",
+            "name": "Thayer Bright",
+            "purple": "#8C54FE",
+            "red": "#F92672",
+            "selectionBackground": "#4D4D4D",
+            "white": "#CCCCC6",
+            "yellow": "#F4FD22"
+        },
+        {
+            "background": "#000000",
+            "black": "#1D1D26",
+            "blue": "#00CBFF",
+            "brightBlack": "#636667",
+            "brightBlue": "#00CBFF",
+            "brightCyan": "#00D5D4",
+            "brightGreen": "#00D364",
+            "brightPurple": "#D783FF",
+            "brightRed": "#FF2F92",
+            "brightWhite": "#D5D6F3",
+            "brightYellow": "#FFD479",
+            "cursorColor": "#CBCBF0",
+            "cyan": "#00CECA",
+            "foreground": "#CBCBF0",
+            "green": "#00D364",
+            "name": "Tinacious Design (Dark Custom)",
+            "purple": "#CC66FF",
+            "red": "#FF3399",
+            "selectionBackground": "#FF3399",
+            "white": "#CBCBF0",
+            "yellow": "#FFCC66"
+        },
+        {
+            "background": "#1D1D26",
+            "black": "#1D1D26",
+            "blue": "#00CBFF",
+            "brightBlack": "#636667",
+            "brightBlue": "#00CBFF",
+            "brightCyan": "#00D5D4",
+            "brightGreen": "#00D364",
+            "brightPurple": "#D783FF",
+            "brightRed": "#FF2F92",
+            "brightWhite": "#D5D6F3",
+            "brightYellow": "#FFD479",
+            "cursorColor": "#CBCBF0",
+            "cyan": "#00CECA",
+            "foreground": "#CBCBF0",
+            "green": "#00D364",
+            "name": "Tinacious Design (Dark)",
+            "purple": "#CC66FF",
+            "red": "#FF3399",
+            "selectionBackground": "#FF3399",
+            "white": "#CBCBF0",
+            "yellow": "#FFCC66"
+        },
+        {
+            "background": "#29283B",
+            "black": "#535178",
+            "blue": "#65AEF7",
+            "brightBlack": "#535178",
+            "brightBlue": "#65AEF7",
+            "brightCyan": "#43C1BE",
+            "brightGreen": "#5ECA89",
+            "brightPurple": "#AA7FF0",
+            "brightRed": "#EF6487",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FDD877",
+            "cursorColor": "#B3B0D6",
+            "cyan": "#43C1BE",
+            "foreground": "#B3B0D6",
+            "green": "#5ECA89",
+            "name": "Whimsy",
+            "purple": "#AA7FF0",
+            "red": "#EF6487",
+            "selectionBackground": "#3D3C58",
+            "white": "#FFFFFF",
+            "yellow": "#FDD877"
+        },
+        {
+            "background": "#010C18",
+            "black": "#0B3B61",
+            "blue": "#1376F9",
+            "brightBlack": "#63686D",
+            "brightBlue": "#388EFF",
+            "brightCyan": "#FF6AD7",
+            "brightGreen": "#74FFD8",
+            "brightPurple": "#AE81FF",
+            "brightRed": "#FF54B0",
+            "brightWhite": "#60FBBF",
+            "brightYellow": "#FCF5AE",
+            "cursorColor": "#38FF9D",
+            "cyan": "#FF5ED4",
+            "foreground": "#ECDEF4",
+            "green": "#52FFD0",
+            "name": "coolnight",
+            "purple": "#C792EA",
+            "red": "#FF3A3A",
+            "selectionBackground": "#38FF9C",
+            "white": "#16FDA2",
+            "yellow": "#FFF383"
+        },
+        {
+            "background": "#16181A",
+            "black": "#16181A",
+            "blue": "#5EA1FF",
+            "brightBlack": "#3C4048",
+            "brightBlue": "#5EA1FF",
+            "brightCyan": "#5EF1FF",
+            "brightGreen": "#5EFF6C",
+            "brightPurple": "#BD5EFF",
+            "brightRed": "#FF6E5E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1FF5E",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#5EF1FF",
+            "foreground": "#FFFFFF",
+            "green": "#5EFF6C",
+            "name": "cyberdream",
+            "purple": "#BD5EFF",
+            "red": "#FF6E5E",
+            "selectionBackground": "#3C4048",
+            "white": "#FFFFFF",
+            "yellow": "#F1FF5E"
+        },
+        {
+            "background": "#332A57",
+            "black": "#000000",
+            "blue": "#00BFFF",
+            "brightBlack": "#000000",
+            "brightBlue": "#1BCCFD",
+            "brightCyan": "#99D6FC",
+            "brightGreen": "#21F6BC",
+            "brightPurple": "#E6AEFE",
+            "brightRed": "#FF8AA4",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF787",
+            "cursorColor": "#21F6BC",
+            "cyan": "#86CBFE",
+            "foreground": "#E5E5E5",
+            "green": "#00FBAC",
+            "name": "cyberpunk",
+            "purple": "#DF95FF",
+            "red": "#FF7092",
+            "selectionBackground": "#C1DEFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFFA6A"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#00BFFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#1BCCFD",
+            "brightCyan": "#99D6FC",
+            "brightGreen": "#21F6BC",
+            "brightPurple": "#E6AEFE",
+            "brightRed": "#FF8AA4",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF787",
+            "cursorColor": "#03EDF9",
+            "cyan": "#86CBFE",
+            "foreground": "#E5E5E5",
+            "green": "#00FBAC",
+            "name": "cyberpunk Custom",
+            "purple": "#DF95FF",
+            "red": "#FF7092",
+            "selectionBackground": "#34E2FF",
+            "white": "#FFFFFF",
+            "yellow": "#FFFA6A"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#2186EC",
+            "brightBlack": "#000000",
+            "brightBlue": "#2F9DED",
+            "brightCyan": "#19CDE6",
+            "brightGreen": "#25C141",
+            "brightPurple": "#F97137",
+            "brightRed": "#F841A0",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FDF454",
+            "cursorColor": "#19CDE6",
+            "cyan": "#12C3E2",
+            "foreground": "#DAD9C7",
+            "green": "#1EBB2B",
+            "name": "synthwave",
+            "purple": "#F85A21",
+            "red": "#F6188F",
+            "selectionBackground": "#19CDE6",
+            "white": "#FFFFFF",
+            "yellow": "#FDF834"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "theme": "DarkMicaTheme",
+    "themes": 
+    [
+        {
+            "name": "DarkMicaTheme",
+            "tab": 
+            {
+                "background": null,
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": null,
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": true,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        },
+        {
+            "name": "LightMicaTheme",
+            "tab": 
+            {
+                "background": null,
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": "#00000000"
+            },
+            "tabRow": 
+            {
+                "background": "#00000000",
+                "unfocusedBackground": "#00000000"
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "experimental.rainbowFrame": true,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": true
+            }
+        }
+    ],
+    "useAcrylicInTabRow": true
+}

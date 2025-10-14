@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ColorSchemeEditor",
+		"ColorSchemeUnit",
+		"Dimmed Color Scheme",
+		"DotENV",
+		"Emmet",
+		"HexViewer",
+		"Hungry Backspace",
+		"IndentToAllBrackets",
+		"INI",
+		"LSP",
+		"Origami",
+		"Package Control",
+		"PackagesUI",
+		"Quokka",
+		"ScopeHunter",
+		"Show Unicode Name",
+		"SideBarTools",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-json",
+		"SublimeLinter-lua",
+		"SublimeLinter-tslint",
+		"SynthWave 84 - Color Scheme",
+		"Theme - Gravity",
+		"Theme - Spacegray",
+	],
+}

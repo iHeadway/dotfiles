@@ -1,0 +1,50 @@
+{
+	"color_scheme": "Wholesome.sublime-color-scheme",
+	"font_face": "Spot Mono Regular", //MesloLGS NFM Propo/MonaSpiceKr NFM Medium
+	//"font_face": "Meslo LG S Regular Nerd Font Complete Mono Windows Compatible"
+	"font_options":
+	[
+		"normal",
+	],
+	"font_size": 13,
+	"ui_scale": 1.15,
+	"line_padding_bottom": 3,
+    "line_padding_top": 3,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		//"Markdown",
+		//"A File Icon",
+		"Catppuccin",
+		"Theme - Spacegray",
+		"Vintage",
+	],
+	"row_padding": [4, 1],  // increase second value e.g. [8, 6]
+	"indent": 6,
+	"file_tab_style": ["rounded"],
+	"block_caret": false,
+	"highlight_line": true,
+	"draw_indent_guides": true,
+	"indent_guide_options": ["draw_normal"],
+
+
+	"indent_to_bracket": true,
+	"open_files_in_new_window": false,
+	"theme": "Reverse Gravity.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"hardware_acceleration": ["opengl"],
+	"gravity_selected_tab_bold": true,
+	"gravity_sidebar_header": true,
+	"gravity_org_label_size": false, // use previous version sidebar and tab label size
+	"gravity_tab_font_small": false,
+	"gravity_tab_height_short": false,
+	"gravity_tab_height_tall": false,
+	"gravity_title_bar": true,
+	/*"gravity_sidebar_header": true,*/
+	"gravity_highlight_color_blue": true,
+	"index_files": false,
+	"in_process_packages":
+	[
+	],
+}

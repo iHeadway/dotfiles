@@ -1,0 +1,211 @@
+format = """
+[╭—](fg:current_line)\
+[](#28FA97)\
+$os\
+$shell\
+[](fg:#28FA97 bg:#006FF7)\
+$username\
+[▓▒░](bg:#FEFA38 fg:#006FF7)\
+$directory\
+[▓▒░](fg:#FEFA38 bg:#FCA17D)\
+$git_branch\
+$git_status\
+[▓▒░](fg:#FCA17D bg:#86BBD8)\
+$c\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+[▓▒░](fg:#86BBD8 bg:#06969A)\
+$docker_context\
+[▓▒░](fg:#06969A bg:#33658A)\
+$time\
+[](fg:#2E9599)\
+$line_break\
+\u2570\u2500$character\
+"""
+# #DA627D
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[palettes.foo]
+osblue = '#006FF7'
+osgreen = '#28FA97'	
+
+[character]
+success_symbol = '[🚀 ](fg:green)'
+error_symbol = '[💀 ](fg:red)'
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "bg:#006FF7"
+style_root = "bg:#006FF7"
+format = '[ 👤$user  ]($style)'
+disabled = false
+
+[username.aliases]
+"Administrator" = "󰆥 Admin "
+"user_root" = "👑 Root "
+"user" = "👤"
+# An alternative to the username module which displays a symbol that
+# represents the current operating system
+[os.symbols]
+Alpine = '  '
+Amazon = '  '
+Android = '  '  
+Arch = '  '
+CentOS = '  '
+Debian = '  '
+EndeavourOS = '  '
+Fedora = '  '
+FreeBSD = '  '
+Garuda = '  '
+Gentoo = '  '
+Linux = '  '
+Macos = '  '
+Manjaro = '  '
+Mariner = '  '
+Mint = '  '
+NetBSD = '  '
+NixOS = '  '
+OpenBSD = '  '
+OpenCloudOS = '  '
+openEuler = '  '
+openSUSE = '  '
+OracleLinux = ' ⊂⊃ '
+Pop = '  '
+Raspbian = '  '
+Redhat = '  '
+RedHatEnterprise = '  '
+Solus = '  '
+SUSE = '  '
+Ubuntu = '  '
+Unknown = '  '
+Windows = '  '
+
+[os]
+style = "#006FF7 bg:#28FA97"
+disabled = false # Disabled by default
+
+[shell]
+format = "[$indicator]($style)"  # Customize the output format
+bash_indicator = "| 🐧󱆃 "
+zsh_indicator = "| ⚡"
+fish_indicator = "| 🐠󰻳󰻴󰈺"
+powershell_indicator = "|  "
+cmd_indicator = "| CMD "
+unknown_indicator = "| ❓ "
+style = "#006FF7 bg:#28FA97"
+disabled = false
+
+[directory]
+style = "#003479 bg:#FEFA38"
+home_symbol = "🏠"
+read_only = '🔒 '
+read_only_style = ''
+format = "[ $path ]($style)"
+truncation_length = 0
+# truncation_symbol = "…/"
+truncation_symbol = '»« '
+
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+# Keep in mind that the order matters. For example:
+# "Important Documents" = " 󰈙 "
+# will not be replaced, because "Documents" was already substituted before.
+# So either put "Important Documents" before "Documents" or use the substituted version:
+# "Important 󰈙 " = " 󰈙 "
+
+[c]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[docker_context]
+symbol = "🐳 "
+style = "bg:#06969A"
+format = '[ $symbol $context ]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[git_branch]
+symbol = ""
+style = "bg:#FCA17D"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#FCA17D"
+format = '[$all_status$ahead_behind ]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[gradle]
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "#9A348E bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[nim]
+symbol = "󰆥 "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#2E9599"
+format = '[ 🕙 $time ]($style)'
+#⌚🕰️⏳⏰⌛
+

@@ -1,0 +1,61 @@
+#extends:
+#  - base_profile_name
+
+# Optional: Variables for all `dotfiles`
+# Default: None
+# DON'T add '-' infront of the variable names (e.g. - OS: "linux")
+variables:
+#  RUSTC_PATH: "/usr/bin/rustc"
+  OS: "windows"
+
+
+# Optional: Content transformer. These will take the content of a dotfile, process it and return a new version of it.
+#transformers:
+#  - LineTerminator: CRLF
+
+# Optional: Target path of config dir; used when no specific deploy_location was given
+# Default: `$PUNKTF_TARGET`
+target: "~"
+
+# Optional: Hooks which are executed once before the deployment.
+# Default: None
+pre_hooks:
+  - echo "Starting deployment of simple complete example"
+
+post_hooks:
+  - echo "Finished deployment of simple complete example"
+
+# `dotfiles` to be deployed
+dotfiles:
+    # Relative path in `dotfiles/`
+  - path: "windows"
+    template: false
+
+  - path: "shared\\starship.toml"
+    rename: ".config\\starship.toml"
+    template: false
+
+  - path: "shared\\Neovim"
+    rename: "AppData\\Local\\nvim"
+    template: false
+
+  - path: "shared\\Sublime_Text"
+    rename: "AppData\\Roaming\\Sublime Text"
+    template: false
+
+
+    # Optional: Content transformer. These will take the content of a dotfile, process it and return a new version of it.
+    transformers:
+    - !LineTerminator: CRLF
+
+    # Optional: Merge operation/kind (like: Ask, Keep, Overwrite)
+    # Default: Overwrite
+    #merge: Overwrite
+
+    # Optional: Whether this file is a template or not (skips template actions (replace, ..) if not)
+    # Default: true
+    #template: false
+
+    # Optional: Higher priority `dotfile` is allowed to overwrite lower priority one
+    # Default: None
+    #priority: 2
